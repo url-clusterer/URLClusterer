@@ -1,0 +1,20 @@
+dataset:
+  name: "ExampleDomain"
+  unlabeled:
+    filename: "ExampleDomain.csv"
+  labeled:
+    filename: "ExampleDomain_labeled.csv"
+  clustered:
+    filename: "ExampleDomain_clustered.csv"
+parquet-filenames:
+  split-url: "split_url.parquet"
+  split-urls-and-word-frequency-orders: "split_urls_and_word_frequency_orders.parquet"
+parquet-filename-prefixes:
+  word-vectors: "word_vectors_"
+  clustered-urls-by: "clustered_urls_by_"
+clustering:
+  max-iters: 20
+hyperparameter-optimization:
+  number-of-evaluations: 500
+profiler:
+  number-of-experiments: 10

@@ -1,0 +1,20 @@
+dataset:
+  name: "<dataset-name>"
+  unlabeled:
+    filename: "<dataset-name>.csv" # This file must have 2 columns: id and url.
+  labeled:
+    filename: "<dataset-name>_labeled.csv"
+  clustered:
+    filename: "<dataset-name>_clustered.csv"
+parquet-filenames:
+  split-url: "split_url.parquet"
+  split-urls-and-word-frequency-orders: "split_urls_and_word_frequency_orders.parquet"
+parquet-filename-prefixes:
+  word-vectors: "word_vectors_"
+  clustered-urls-by: "clustered_urls_by_"
+clustering:
+  max-iters: <max-iters> # max-iters parameter of k-means and bisecting k-means algorithms.
+hyperparameter-optimization:
+  number-of-evaluations: <number-of-evaluations> # number of evaluations to be done in hyperparameter optimization.
+profiler:
+  number-of-experiments: <number-of-experiments> # number of experiments to be done to measure scalability.
