@@ -18,7 +18,7 @@ Input and output data locations, and some of the parameters of the algorithms in
 ## Prerequisites
 
 ```
-pip3 install pyspark numpy pandas scikit-learn bokeh pyarrow hyperopt
+pip3 install pyspark numpy pandas scikit-learn bokeh pyarrow hyperopt PyYAML
 ```
 
 ## Usage
