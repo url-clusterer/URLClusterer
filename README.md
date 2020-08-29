@@ -15,10 +15,10 @@ To evaluate the clustering result given a ground truth, `url_clusterer/job/evalu
 
 Input and output data locations, and some of the parameters of the algorithms in the pipeline for these Spark jobs can be configured in `config.yml`. `example_config.yml` file is an example configuration file.
 
-## Prerequisites
+## Installation of Prerequisites
 
 ```
-pip3 install pyspark numpy pandas scikit-learn bokeh pyarrow hyperopt PyYAML
+pip3 install pypandoc pyspark==2.4.6 numpy pandas scikit-learn bokeh hyperopt PyYAML
 ```
 
 ## Usage
